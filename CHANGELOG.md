@@ -4,6 +4,56 @@ This repository hosts signed and notarized GoalMate desktop release artifacts.
 
 Dates are in UTC. Each version links to the public GitHub release that contains the macOS DMG, ZIP, blockmaps, and `latest-mac.yml` update metadata.
 
+## 0.1.8 - 2026-07-10
+
+Release: [GoalMate 0.1.8](https://github.com/GYGG/GoalMate-releases/releases/tag/v0.1.8)  
+Source: [GYGG/GoalMate@1f46da0](https://github.com/GYGG/GoalMate/commit/1f46da0c743a30abb3f19156b75aa3c5c21d83eb)
+
+### Added
+
+- Global floating Runtime Chat entry that follows the Multica-style chat experience.
+- Runtime Chat sessions that use `goalmatecli` context so GoalMate Agent can answer across Goals, ActivityEvents, and local GoalMate state.
+- Chat rendering for assistant reasoning, tool calls, tool results, quick prompts, file/image attachments, and compact composer interactions.
+
+### Changed
+
+- Chat is no longer locked to a single selected Goal; it is a global assistant surface for GoalMate-supported agents.
+- Qoder and QoderWork Runtime settings entries are hidden until their chat runtime path is fully proven.
+- Desktop application version is bumped to `0.1.8`.
+
+### Fixed
+
+- Preserved the bundled OpenCode Bun single-file runtime during macOS packaging by excluding it from code-signing mutation.
+- Added release workflow hash checks to catch bundled Runtime modification during packaging or signing before publishing.
+
+### Release Artifacts
+
+- `GoalMate-0.1.8-arm64.dmg`
+- `GoalMate-0.1.8-arm64.zip`
+- `GoalMate-0.1.8-arm64.dmg.blockmap`
+- `GoalMate-0.1.8-arm64.zip.blockmap`
+- `latest-mac.yml`
+
+## 0.1.7 - 2026-07-08
+
+Release: [GoalMate 0.1.7](https://github.com/GYGG/GoalMate-releases/releases/tag/v0.1.7)  
+Source: [GYGG/GoalMate@140ac28](https://github.com/GYGG/GoalMate/commit/140ac286901b28ba0de1dcc1b6b32724ea7c47bd)
+
+### Fixed
+
+- Reduced packaged app startup memory pressure by streaming and bounding activity archive loading.
+- Kept archived ActivityEvents and attribution records bounded when merging them into desktop state.
+- Refreshed the signed desktop package after validating startup against real local activity data.
+- Made release artifact upload non-blocking so published assets are not treated as failed solely because of GitHub artifact quota.
+
+### Release Artifacts
+
+- `GoalMate-0.1.7-arm64.dmg`
+- `GoalMate-0.1.7-arm64.zip`
+- `GoalMate-0.1.7-arm64.dmg.blockmap`
+- `GoalMate-0.1.7-arm64.zip.blockmap`
+- `latest-mac.yml`
+
 ## 0.1.6 - 2026-07-08
 
 Release: [GoalMate 0.1.6](https://github.com/GYGG/GoalMate-releases/releases/tag/v0.1.6)  
@@ -143,4 +193,3 @@ Release: [GoalMate 0.1.0](https://github.com/GYGG/GoalMate-releases/releases/tag
 - `GoalMate-0.1.0-arm64.dmg.blockmap`
 - `GoalMate-0.1.0-arm64.zip.blockmap`
 - `latest-mac.yml`
-
