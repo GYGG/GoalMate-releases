@@ -7,7 +7,7 @@ Dates are in UTC. Each version links to the public GitHub release that contains 
 ## 0.1.8 - 2026-07-10
 
 Release: [GoalMate 0.1.8](https://github.com/GYGG/GoalMate-releases/releases/tag/v0.1.8)  
-Source: [GYGG/GoalMate@7351730](https://github.com/GYGG/GoalMate/commit/73517301674d26a7dbc8521b91a18bc8b24632df)
+Source: [GYGG/GoalMate@8dd409f](https://github.com/GYGG/GoalMate/commit/8dd409fd502ff15ec1ecb3bd8db8a40f15229f96)
 
 ### Added
 
@@ -23,9 +23,9 @@ Source: [GYGG/GoalMate@7351730](https://github.com/GYGG/GoalMate/commit/73517301
 
 ### Fixed
 
-- Packaged the bundled OpenCode Bun single-file runtime as an archive and extracted it into user data at runtime.
+- Packaged the bundled OpenCode Bun single-file runtime as a base64 payload and decoded it into user data at runtime.
 - Avoided macOS notarization failures from unsigned embedded Runtime executables while also preventing code-signing mutation from breaking the Bun runtime.
-- Added release workflow archive checks to verify the bundled Runtime before publishing.
+- Added release workflow payload checks to verify the bundled Runtime before publishing.
 
 ### Release Artifacts
 
