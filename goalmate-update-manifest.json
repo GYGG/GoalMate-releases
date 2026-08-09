@@ -2,11 +2,11 @@
   "schemaVersion": "goalmate.updateManifest.v1",
   "channels": {
     "stable": {
-      "version": "0.2.7",
-      "notes": "GoalMate 0.2.7 稳定版本。",
+      "version": "0.2.8",
+      "notes": "GoalMate 0.2.8 稳定版本。",
       "platforms": {
         "darwin-arm64": {
-          "feedUrl": "https://github.com/GYGG/GoalMate-releases/releases/download/v0.2.7/"
+          "feedUrl": "https://github.com/GYGG/GoalMate-releases/releases/download/v0.2.8/"
         }
       }
     }
