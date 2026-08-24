@@ -1,1 +1,20 @@
-{"schemaVersion":"goalmate.updateManifest.v1","channels":{"stable":{"version":"0.3.6","notes":"GoalMate 0.3.6 稳定版本。","platforms":{"darwin-arm64":{"feedUrl":"https://github.com/GYGG/GoalMate-releases/releases/download/v0.3.6/"},"darwin-x64":{"feedUrl":"https://github.com/GYGG/GoalMate-releases/releases/download/v0.3.6/"}}}}}
+{
+  "schemaVersion": "goalmate.updateManifest.v1",
+  "channels": {
+    "stable": {
+      "version": "0.3.7",
+      "notes": "GoalMate 0.3.7 稳定版本。",
+      "platforms": {
+        "darwin-arm64": {
+          "feedUrl": "https://github.com/GYGG/GoalMate-releases/releases/download/v0.3.7/"
+        },
+        "darwin-x64": {
+          "feedUrl": "https://github.com/GYGG/GoalMate-releases/releases/download/v0.3.7/"
+        },
+        "win32-x64": {
+          "feedUrl": "https://github.com/GYGG/GoalMate-releases/releases/download/v0.3.7/"
+        }
+      }
+    }
+  }
+}
