@@ -2,14 +2,14 @@
   "schemaVersion": "goalmate.updateManifest.v1",
   "channels": {
     "stable": {
-      "version": "0.3.9",
-      "notes": "GoalMate 0.3.9 稳定版本。",
+      "version": "0.3.10",
+      "notes": "GoalMate 0.3.10：界面与交互更新，支持应用内钉钉账号登录、开机自启动和按日期回看日报。",
       "platforms": {
         "darwin-arm64": {
-          "feedUrl": "https://github.com/GYGG/GoalMate-releases/releases/download/v0.3.9/"
+          "feedUrl": "https://github.com/GYGG/GoalMate-releases/releases/download/v0.3.10/"
         },
         "darwin-x64": {
-          "feedUrl": "https://github.com/GYGG/GoalMate-releases/releases/download/v0.3.9/"
+          "feedUrl": "https://github.com/GYGG/GoalMate-releases/releases/download/v0.3.10/"
         }
       }
     }
